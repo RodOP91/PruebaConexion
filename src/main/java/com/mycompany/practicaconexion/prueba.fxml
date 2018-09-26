@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="com.mycompany.practicaconexion.PruebaController">
+  <children>
+    <Pane prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <Label fx:id="avisoServidor" layoutX="272.0" layoutY="272.0" prefHeight="18.9609375" text="" />
+        <Button fx:id="btnmensaje" layoutX="403.0" layoutY="200.0" mnemonicParsing="false" text="Enviar" />
+        <TextField fx:id="txtfmensaje" layoutX="191.0" layoutY="199.0" prefWidth="200.0" />
+        <Label layoutX="85.0" layoutY="202.0" text="Envia un mensaje:" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
